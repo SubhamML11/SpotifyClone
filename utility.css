@@ -1,0 +1,64 @@
+.border{
+    border:2px solid rgb(159, 22, 22);
+    margin: 3px;
+}
+.flex{
+    display:flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items:center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;;
+}
+.p-1{
+    padding: 10px;
+}
+/* Style the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change color on hover */
+  }
+  
+  /* Handle on active */
+  ::-webkit-scrollbar-thumb:active {
+    background: #777; /* Change color on click */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333; /* Set the background color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* Set the color of the handle */
+    border-radius: 6px; /* Set the border-radius to round the corners */
+  }
+  
+  /* Add some padding to the scrollbar track */
+  ::-webkit-scrollbar-track-piece {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
