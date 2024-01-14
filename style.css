@@ -367,6 +367,7 @@ body {
 
   .hamburger {
       display: block;
+      cursor: pointer;
   }
 
   .right {
